@@ -13,6 +13,10 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #ffe5e5;
+    background-image: url('https://img.freepik.com/fotos-premium/marco-corazones-rojos-aislados-sobre-fondo-blanco-concepto-dia-san-valentin_356877-256.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Esta línea asegura que la imagen cubra toda la pantalla */
+    background-position: center;
 }
 
 .container {
@@ -35,12 +39,35 @@ body {
     gap: 25px;
 }
 
-.btn a {
+/* .btn a {
     text-decoration: none;
     color: #111;
     background: #fff;
     padding: 10px 25px;
     border-radius: 8px;
-    box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0,0.3);
+} */
+.btn-success{
+    text-decoration: none;
+    color: #ffffff;
+    background: #08ab10;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: 1px solid #07840d;
+}
 
+.btn-success:hover{
+    background: #07840d;
+}
+
+.btn-danger{
+    text-decoration: none;
+    color: #ffffff;
+    background: #ba1212;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: 1px solid #8c1919;
+}
+
+.btn-danger:hover{
+    background: #8c1919;
 }
